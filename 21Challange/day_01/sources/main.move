@@ -1,4 +1,4 @@
-﻿module challange::day_01 {
+module challange::day_01 {
     use std::string;
 
     const NUMBER: u64 = 42;
