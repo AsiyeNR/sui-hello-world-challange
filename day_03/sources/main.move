@@ -13,7 +13,7 @@ module day_03::habit_tracker {
         }
     }
 
-    // --- Basit Bir Test ---
+    // --- Unit Test ---
     #[test_only]
     use std::unit_test::assert_eq;
 

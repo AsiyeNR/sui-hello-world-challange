@@ -2,9 +2,7 @@
 name = "day_04"
 version = "1.0.0"
 edition = "2024"
-
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
-
 [addresses]
 day_04 = "0x0"
