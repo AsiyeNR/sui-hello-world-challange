@@ -22,7 +22,6 @@ module day_06::habit_tracker {
         Habit { name, completed: false }
     }
 
-    // ⭐ GÜN 6 ÖDEVİ: Byte'ları String'e çeviren yardımcı fonksiyon
     public fun make_habit(bytes: vector<u8>): Habit {
         let name_as_string = string::utf8(bytes);
         new_habit(name_as_string)
