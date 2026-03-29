@@ -8,7 +8,7 @@ module day_02::main {
 
     #[test]
     fun test_sum() {
-        // Doğru kullanım: assert_eq! (ünlem ile)
+        // Doğru kullanım: assert_eq!
         assert_eq!(sum(10, 20), 30);
     }
 }

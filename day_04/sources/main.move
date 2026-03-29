@@ -5,12 +5,12 @@ module day_04::habit_tracker {
     // --- Structlar ---
 
     public struct Habit has drop {
-        name: String,        // Artık String kullanıyoruz!
+        name: String,        
         completed: bool,
     }
 
     public struct HabitList has drop {
-        habits: vector<Habit>, // Habit nesnelerini tutan dinamik liste
+        habits: vector<Habit>, 
     }
 
     // --- Fonksiyonlar ---
