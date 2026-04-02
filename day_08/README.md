@@ -1,2 +1,7 @@
-# Day 08 - Sui Move Challenge
-Bu klasör 21 günlük Sui Move serüveninin 08. gününe ait kodları ve öğrenim notlarını içerir.
+# Day 08: Bounty Board Projesi - Giriş
+Bugün yeni bir modül yapısı kurduk ve "Bounty Board" uygulamamızın temel taşı olan `Task` yapısını tasarladık.
+
+### Öğrenilenler:
+- **Proje Organizasyonu**: Modül adresleme ve yeni bir proje başlatma.
+- **Struct Tasarımı**: `title`, `reward` ve `done` alanları ile veri modelleme.
+- **Constructor**: Yeni nesneleri başlatma mantığı.
